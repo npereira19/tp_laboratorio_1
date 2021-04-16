@@ -39,11 +39,7 @@ int main(void){
 		{
 			case 1:
 				printf("Ingrese el primer operando: ");
-				while(scanf("%d", &x)==0)
-				{
-					printf("Error. Debe ingresar un numero: ");
-					fflush(stdin);
-				}
+				scanf("%d", &x);
 				flagPrimerOperando = 1;
 				system("pause");
 				break;
